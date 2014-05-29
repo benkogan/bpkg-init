@@ -1,7 +1,7 @@
 bpkg-init
 =========
 
-Interactively generate a `package.json' for your [bpkg][bp]. Code, format,
+Interactively generate a `package.json` for your [bpkg][bp]. Code, format,
 and instructions based heavily on [jwerle's][jw] [clib-init][cb].
 
 [bp]: https://github.com/bpkg/bpkg/
@@ -39,7 +39,7 @@ defaults.
 See github.com/bpkg/bpkg for more information on defining the bpkg
 `package.json` file.
 
-You can press ^C anytime to quit this prompt. The `package.json' file
+You can press `^C` anytime to quit this prompt. The `package.json` file
 will only be written upon completion.
 
 ```sh
