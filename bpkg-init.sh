@@ -80,7 +80,7 @@ options () {
   opt NAME "$(basename `pwd`)"
   opt VERSION "0.0.1"
   opt DESCRIPTION ""
-  opt GLOBAL "true"
+  opt GLOBAL ""
   opt INSTALL ""
   opt SCRIPTS "${NAME}.sh"
 }
@@ -89,7 +89,7 @@ prompts () {
   prompt NAME "name: (${NAME}) "
   prompt VERSION "version: (${VERSION}) "
   prompt DESCRIPTION "description: "
-  prompt GLOBAL "global: (${GLOBAL}) "
+  prompt GLOBAL "global: "
   prompt INSTALL "install: "
   prompt SCRIPTS "scripts: (${SCRIPTS}) "
 }
