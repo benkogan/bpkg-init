@@ -234,7 +234,7 @@ bpkg_init () {
 if [[ ${BASH_SOURCE[0]} != $0 ]]; then
   export -f bpkg-init
 else
-  bpkg-init "${@}"
+  bpkg_init "${@}"
   exit $?
 fi
 
