@@ -184,7 +184,7 @@ clobber () {
 }
 
 ## main
-bpkg-init () {
+bpkg_init () {
   local version="0.0.1"
   local cwd="`pwd`"
   local buf="" ## output buffer
